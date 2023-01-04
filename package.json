@@ -1,0 +1,40 @@
+{
+  "name": "image-processing-api",
+  "version": "1.0.0",
+  "description": "sharp image processing api node.js project",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "nodemon src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmodipa/image-processing-api.git"
+  },
+  "author": "Khomotjo Modipa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmodipa/image-processing-api/issues"
+  },
+  "homepage": "https://github.com/kmodipa/image-processing-api#readme",
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "express": "^4.18.2",
+    "jasmine": "^4.5.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "prettier": "^2.8.1",
+    "sharp": "^0.31.3",
+    "supertest": "^6.3.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/jasmine": "^4.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "eslint": "~8.31.0",
+    "nodemon": "^2.0.20"
+  }
+}
