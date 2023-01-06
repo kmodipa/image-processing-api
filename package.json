@@ -6,7 +6,10 @@
   "scripts": {
     "build": "npx tsc",
     "start": "nodemon src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run build && npm run  jasmine",
+    "jasmine": "jasmine",
+    "lint": "npx eslint . --ext .ts --fix",
+    "prettier": "prettier --write src/**/*.ts"
   },
   "repository": {
     "type": "git",
